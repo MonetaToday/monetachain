@@ -43,8 +43,8 @@ adminAddressess.forEach((address) => {
   changeBalance(address, BigInt(-1) * amount);
   changeBalance(adminAddressess[0], amount);
 });
-console.log(getTotalBalance());
-
+console.log("Total supply:", getTotalBalance());
+console.log("On hands:", getTotalBalance() - getBalance("moneta1r4rfvqyjj0nycretax744krvrwlh404lp30083").balance.amount);
 
 filteredBalances.forEach((balance) => {
   // const oldBalance = balances.find(({ address }) => address === balance.address );
@@ -53,5 +53,7 @@ filteredBalances.forEach((balance) => {
   //   console.log("not compare:", oldBalance, balance );
   // }
 
-  console.log(`$BIN genesis add-genesis-account ${balance.address} ${balance.amount.toString()}micromoneta`)
+  if (balance.amount > 0n) {
+    console.log(`$BIN genesis add-genesis-account ${balance.address} ${balance.amount.toString()}micromoneta`)
+  }
 })

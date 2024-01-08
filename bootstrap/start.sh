@@ -180,6 +180,7 @@ if [ ! -f "$HOME/.monetachain/config/genesis.json" ]; then
   $BIN genesis collect-gentxs
 
   sed -i -e 's/minimum-gas-prices = ""/minimum-gas-prices = "1micromoneta"/' $HOME/.monetachain/config/app.toml
+  sed -i -e 's/laddr = "tcp:\/\/127.0.0.1:26657"/laddr = "tcp:\/\/0.0.0.0:26657"/' $HOME/.monetachain/config/config.toml
 fi
 
 $BIN $@
