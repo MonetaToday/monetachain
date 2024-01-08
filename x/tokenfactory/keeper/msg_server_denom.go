@@ -6,6 +6,7 @@ import (
 	"monetachain/x/tokenfactory/types"
 
 	errorsmod "cosmossdk.io/errors"
+	"cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 )
@@ -30,7 +31,7 @@ func (k msgServer) CreateDenom(goCtx context.Context, msg *types.MsgCreateDenom)
 		Precision:          msg.Precision,
 		Url:                msg.Url,
 		MaxSupply:          msg.MaxSupply,
-		Supply:             0,
+		Supply:             math.ZeroInt(),
 		CanChangeMaxSupply: msg.CanChangeMaxSupply,
 	}
 

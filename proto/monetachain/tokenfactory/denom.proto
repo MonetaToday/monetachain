@@ -1,6 +1,10 @@
 syntax = "proto3";
 package monetachain.tokenfactory;
 
+import "amino/amino.proto";
+import "cosmos_proto/cosmos.proto";
+import "gogoproto/gogo.proto";
+
 option go_package = "monetachain/x/tokenfactory/types";
 
 message Denom {
@@ -9,9 +13,20 @@ message Denom {
   string ticker = 3; 
   int32 precision = 4; 
   string url = 5; 
-  int32 maxSupply = 6; 
-  int32 supply = 7; 
+  string maxSupply = 6 [
+    (cosmos_proto.scalar)  = "cosmos.Int",
+    (gogoproto.customtype) = "cosmossdk.io/math.Int",
+    (gogoproto.nullable)   = false,
+    (amino.dont_omitempty) = true
+  ];
+  string supply = 7 [
+    (cosmos_proto.scalar)  = "cosmos.Int",
+    (gogoproto.customtype) = "cosmossdk.io/math.Int",
+    (gogoproto.nullable)   = false,
+    (amino.dont_omitempty) = true
+  ];
   bool canChangeMaxSupply = 8; 
   string owner = 9;
 }
+
 

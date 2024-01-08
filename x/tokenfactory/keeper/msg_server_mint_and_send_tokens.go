@@ -6,7 +6,6 @@ import (
 	"monetachain/x/tokenfactory/types"
 
 	errorsmod "cosmossdk.io/errors"
-	"cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 )
@@ -28,7 +27,7 @@ func (k msgServer) MintAndSendTokens(goCtx context.Context, msg *types.MsgMintAn
 		return nil, errorsmod.Wrap(sdkerrors.ErrUnauthorized, "incorrect owner")
 	}
 
-	if valFound.Supply+msg.Amount > valFound.MaxSupply {
+	if (valFound.Supply.Add(msg.Amount)).GT(valFound.MaxSupply) {
 		return nil, errorsmod.Wrap(sdkerrors.ErrInvalidRequest, "Cannot mint more than Max Supply")
 	}
 	moduleAcct := k.accountKeeper.GetModuleAddress(types.ModuleName)
@@ -40,7 +39,7 @@ func (k msgServer) MintAndSendTokens(goCtx context.Context, msg *types.MsgMintAn
 
 	var mintCoins sdk.Coins
 
-	mintCoins = mintCoins.Add(sdk.NewCoin(msg.Denom, math.NewInt(int64(msg.Amount))))
+	mintCoins = mintCoins.Add(sdk.NewCoin(msg.Denom, msg.Amount))
 	if err := k.bankKeeper.MintCoins(ctx, types.ModuleName, mintCoins); err != nil {
 		return nil, err
 	}
@@ -53,7 +52,7 @@ func (k msgServer) MintAndSendTokens(goCtx context.Context, msg *types.MsgMintAn
 		Denom:              valFound.Denom,
 		Description:        valFound.Description,
 		MaxSupply:          valFound.MaxSupply,
-		Supply:             valFound.Supply + msg.Amount,
+		Supply:             valFound.Supply.Add(msg.Amount),
 		Precision:          valFound.Precision,
 		Ticker:             valFound.Ticker,
 		Url:                valFound.Url,

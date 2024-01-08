@@ -228,6 +228,10 @@
       "redelegations": [],
       "exported": false
     },
+    "tokenfactory": {
+      "params": {},
+      "denomList": []
+    },
     "transfer": {
       "port_id": "transfer",
       "denom_traces": [],

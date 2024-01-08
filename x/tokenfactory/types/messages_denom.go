@@ -2,6 +2,7 @@ package types
 
 import (
 	errorsmod "cosmossdk.io/errors"
+	"cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 )
@@ -15,7 +16,7 @@ func NewMsgCreateDenom(
 	ticker string,
 	precision int32,
 	url string,
-	maxSupply int32,
+	maxSupply math.Int,
 	canChangeMaxSupply bool,
 
 ) *MsgCreateDenom {
@@ -44,7 +45,7 @@ func (msg *MsgCreateDenom) ValidateBasic() error {
 	if tickerLength > 10 {
 		return errorsmod.Wrapf(sdkerrors.ErrInvalidRequest, "Ticker length must be 10 chars long maximum")
 	}
-	if msg.MaxSupply == 0 {
+	if msg.MaxSupply.LTE(math.ZeroInt()) {
 		return errorsmod.Wrapf(sdkerrors.ErrInvalidRequest, "Max Supply must be greater than 0")
 	}
 
@@ -58,7 +59,7 @@ func NewMsgUpdateDenom(
 	denom string,
 	description string,
 	url string,
-	maxSupply int32,
+	maxSupply math.Int,
 	canChangeMaxSupply bool,
 
 ) *MsgUpdateDenom {
@@ -77,7 +78,7 @@ func (msg *MsgUpdateDenom) ValidateBasic() error {
 	if err != nil {
 		return errorsmod.Wrapf(sdkerrors.ErrInvalidAddress, "invalid owner address (%s)", err)
 	}
-	if msg.MaxSupply == 0 {
+	if msg.MaxSupply.LTE(math.ZeroInt()) {
 		return errorsmod.Wrapf(sdkerrors.ErrInvalidRequest, "Max Supply must be greater than 0")
 	}
 	return nil
