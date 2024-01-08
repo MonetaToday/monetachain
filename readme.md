@@ -5,3 +5,8 @@ docker run -ti --name monetachain --restart=always -v ~/monetachain:/root/moneta
 ## Run commands via Docker
 
 docker exec monetachain /usr/local/bin/monetachaind query bank total-supply
+
+
+docker run -ti -v $HOME/sdh:/home/tendermint -v $PWD:/apps ignitehq/cli:v28.1.0 scaffold module tokenfactory --dep account,bank
+
+docker run -ti -v $HOME/sdh:/home/tendermint -v $PWD:/apps ignitehq/cli:v28.1.0 scaffold map Denom description:string ticker:string precision:int url:string maxSupply:int supply:int canChangeMaxSupply:bool --signer owner --index denom --module tokenfactory
