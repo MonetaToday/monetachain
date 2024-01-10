@@ -21,7 +21,7 @@ if [ ! -f "$HOME/.monetachain/config/genesis.json" ]; then
   #   $BIN keys add $NODE_NAME $KEYRING_SETTINGS
   # fi
 
-  $BIN genesis gentx $NODE_NAME 100000000000000micromoneta --gas 1000000 --gas-prices 0.1micromoneta $KEYRING_SETTINGS
+  $BIN genesis gentx $NODE_NAME 50000000000000micromoneta --gas 1000000 --gas-prices 0.1micromoneta $KEYRING_SETTINGS
   $BIN genesis collect-gentxs
 
   sed -i -e 's/minimum-gas-prices = ""/minimum-gas-prices = "1micromoneta"/' $HOME/.monetachain/config/app.toml

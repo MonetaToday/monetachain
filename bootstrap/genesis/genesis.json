@@ -1230,7 +1230,7 @@
           "coins": [
             {
               "denom": "micromoneta",
-              "amount": "9997847252335244"
+              "amount": "97847252335244"
             }
           ]
         },
@@ -2480,7 +2480,7 @@
       "supply": [
         {
           "denom": "micromoneta",
-          "amount": "10000000000000000"
+          "amount": "100000000000000"
         }
       ],
       "denom_metadata": [],

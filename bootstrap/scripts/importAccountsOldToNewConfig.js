@@ -26,7 +26,7 @@ const getTotalBalance = () => {
   return filteredBalances.reduce((prev,cur) => prev + cur.amount, BigInt(0));
 }
 
-const wishTotalBalance = BigInt(10000000000000000);
+const wishTotalBalance = BigInt(100000000000000);
 const diffBalance = wishTotalBalance - getTotalBalance();
 console.log("diffBalance:", diffBalance, "double check:", getTotalBalance() + diffBalance);
 
