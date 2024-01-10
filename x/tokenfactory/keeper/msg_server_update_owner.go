@@ -13,6 +13,17 @@ import (
 func (k msgServer) UpdateOwner(goCtx context.Context, msg *types.MsgUpdateOwner) (*types.MsgUpdateOwnerResponse, error) {
 	ctx := sdk.UnwrapSDKContext(goCtx)
 
+	// Check address prefix
+	newOwner, err := sdk.AccAddressFromBech32(msg.NewOwner)
+	if err != nil {
+		return nil, err
+	}
+	_, err = k.accountKeeper.AddressCodec().BytesToString(newOwner)
+	if err != nil {
+		return nil, err
+	}
+	// End checking
+
 	// Check if the value exists
 	valFound, isFound := k.GetDenom(
 		ctx,
@@ -28,7 +39,7 @@ func (k msgServer) UpdateOwner(goCtx context.Context, msg *types.MsgUpdateOwner)
 	}
 
 	var denom = types.Denom{
-		Owner:              msg.NewOwner,
+		Owner:              newOwner.String(),
 		Denom:              msg.Denom,
 		Description:        valFound.Description,
 		MaxSupply:          valFound.MaxSupply,

@@ -14,13 +14,63 @@ import (
 	sync "sync"
 )
 
+var _ protoreflect.List = (*_Params_2_list)(nil)
+
+type _Params_2_list struct {
+	list *[]string
+}
+
+func (x *_Params_2_list) Len() int {
+	if x.list == nil {
+		return 0
+	}
+	return len(*x.list)
+}
+
+func (x *_Params_2_list) Get(i int) protoreflect.Value {
+	return protoreflect.ValueOfString((*x.list)[i])
+}
+
+func (x *_Params_2_list) Set(i int, value protoreflect.Value) {
+	valueUnwrapped := value.String()
+	concreteValue := valueUnwrapped
+	(*x.list)[i] = concreteValue
+}
+
+func (x *_Params_2_list) Append(value protoreflect.Value) {
+	valueUnwrapped := value.String()
+	concreteValue := valueUnwrapped
+	*x.list = append(*x.list, concreteValue)
+}
+
+func (x *_Params_2_list) AppendMutable() protoreflect.Value {
+	panic(fmt.Errorf("AppendMutable can not be called on message Params at list field AccessList as it is not of Message kind"))
+}
+
+func (x *_Params_2_list) Truncate(n int) {
+	*x.list = (*x.list)[:n]
+}
+
+func (x *_Params_2_list) NewElement() protoreflect.Value {
+	v := ""
+	return protoreflect.ValueOfString(v)
+}
+
+func (x *_Params_2_list) IsValid() bool {
+	return x.list != nil
+}
+
 var (
-	md_Params protoreflect.MessageDescriptor
+	md_Params                   protoreflect.MessageDescriptor
+	fd_Params_canAnyoneAddCoins protoreflect.FieldDescriptor
+	fd_Params_accessList        protoreflect.FieldDescriptor
 )
 
 func init() {
 	file_monetachain_tokenfactory_params_proto_init()
 	md_Params = File_monetachain_tokenfactory_params_proto.Messages().ByName("Params")
+	fd_Params_canAnyoneAddCoins = md_Params.Fields().ByName("canAnyoneAddCoins")
+	fd_Params_accessList = md_Params.Fields().ByName("accessList")
 }
 
 var _ protoreflect.Message = (*fastReflection_Params)(nil)
@@ -88,6 +138,18 @@ func (x *fastReflection_Params) Interface() protoreflect.ProtoMessage {
 // While iterating, mutating operations may only be performed
 // on the current field descriptor.
 func (x *fastReflection_Params) Range(f func(protoreflect.FieldDescriptor, protoreflect.Value) bool) {
+	if x.CanAnyoneAddCoins != false {
+		value := protoreflect.ValueOfBool(x.CanAnyoneAddCoins)
+		if !f(fd_Params_canAnyoneAddCoins, value) {
+			return
+		}
+	}
+	if len(x.AccessList) != 0 {
+		value := protoreflect.ValueOfList(&_Params_2_list{list: &x.AccessList})
+		if !f(fd_Params_accessList, value) {
+			return
+		}
+	}
 }
 
 // Has reports whether a field is populated.
@@ -103,6 +165,10 @@ func (x *fastReflection_Params) Range(f func(protoreflect.FieldDescriptor, proto
 // a repeated field is populated if it is non-empty.
 func (x *fastReflection_Params) Has(fd protoreflect.FieldDescriptor) bool {
 	switch fd.FullName() {
+	case "monetachain.tokenfactory.Params.canAnyoneAddCoins":
+		return x.CanAnyoneAddCoins != false
+	case "monetachain.tokenfactory.Params.accessList":
+		return len(x.AccessList) != 0
 	default:
 		if fd.IsExtension() {
 			panic(fmt.Errorf("proto3 declared messages do not support extensions: monetachain.tokenfactory.Params"))
@@ -119,6 +185,10 @@ func (x *fastReflection_Params) Has(fd protoreflect.FieldDescriptor) bool {
 // Clear is a mutating operation and unsafe for concurrent use.
 func (x *fastReflection_Params) Clear(fd protoreflect.FieldDescriptor) {
 	switch fd.FullName() {
+	case "monetachain.tokenfactory.Params.canAnyoneAddCoins":
+		x.CanAnyoneAddCoins = false
+	case "monetachain.tokenfactory.Params.accessList":
+		x.AccessList = nil
 	default:
 		if fd.IsExtension() {
 			panic(fmt.Errorf("proto3 declared messages do not support extensions: monetachain.tokenfactory.Params"))
@@ -135,6 +205,15 @@ func (x *fastReflection_Params) Clear(fd protoreflect.FieldDescriptor) {
 // of the value; to obtain a mutable reference, use Mutable.
 func (x *fastReflection_Params) Get(descriptor protoreflect.FieldDescriptor) protoreflect.Value {
 	switch descriptor.FullName() {
+	case "monetachain.tokenfactory.Params.canAnyoneAddCoins":
+		value := x.CanAnyoneAddCoins
+		return protoreflect.ValueOfBool(value)
+	case "monetachain.tokenfactory.Params.accessList":
+		if len(x.AccessList) == 0 {
+			return protoreflect.ValueOfList(&_Params_2_list{})
+		}
+		listValue := &_Params_2_list{list: &x.AccessList}
+		return protoreflect.ValueOfList(listValue)
 	default:
 		if descriptor.IsExtension() {
 			panic(fmt.Errorf("proto3 declared messages do not support extensions: monetachain.tokenfactory.Params"))
@@ -155,6 +234,12 @@ func (x *fastReflection_Params) Get(descriptor protoreflect.FieldDescriptor) pro
 // Set is a mutating operation and unsafe for concurrent use.
 func (x *fastReflection_Params) Set(fd protoreflect.FieldDescriptor, value protoreflect.Value) {
 	switch fd.FullName() {
+	case "monetachain.tokenfactory.Params.canAnyoneAddCoins":
+		x.CanAnyoneAddCoins = value.Bool()
+	case "monetachain.tokenfactory.Params.accessList":
+		lv := value.List()
+		clv := lv.(*_Params_2_list)
+		x.AccessList = *clv.list
 	default:
 		if fd.IsExtension() {
 			panic(fmt.Errorf("proto3 declared messages do not support extensions: monetachain.tokenfactory.Params"))
@@ -175,6 +260,14 @@ func (x *fastReflection_Params) Set(fd protoreflect.FieldDescriptor, value proto
 // Mutable is a mutating operation and unsafe for concurrent use.
 func (x *fastReflection_Params) Mutable(fd protoreflect.FieldDescriptor) protoreflect.Value {
 	switch fd.FullName() {
+	case "monetachain.tokenfactory.Params.accessList":
+		if x.AccessList == nil {
+			x.AccessList = []string{}
+		}
+		value := &_Params_2_list{list: &x.AccessList}
+		return protoreflect.ValueOfList(value)
+	case "monetachain.tokenfactory.Params.canAnyoneAddCoins":
+		panic(fmt.Errorf("field canAnyoneAddCoins of message monetachain.tokenfactory.Params is not mutable"))
 	default:
 		if fd.IsExtension() {
 			panic(fmt.Errorf("proto3 declared messages do not support extensions: monetachain.tokenfactory.Params"))
@@ -188,6 +281,11 @@ func (x *fastReflection_Params) Mutable(fd protoreflect.FieldDescriptor) protore
 // For lists, maps, and messages, this returns a new, empty, mutable value.
 func (x *fastReflection_Params) NewField(fd protoreflect.FieldDescriptor) protoreflect.Value {
 	switch fd.FullName() {
+	case "monetachain.tokenfactory.Params.canAnyoneAddCoins":
+		return protoreflect.ValueOfBool(false)
+	case "monetachain.tokenfactory.Params.accessList":
+		list := []string{}
+		return protoreflect.ValueOfList(&_Params_2_list{list: &list})
 	default:
 		if fd.IsExtension() {
 			panic(fmt.Errorf("proto3 declared messages do not support extensions: monetachain.tokenfactory.Params"))
@@ -257,6 +355,15 @@ func (x *fastReflection_Params) ProtoMethods() *protoiface.Methods {
 		var n int
 		var l int
 		_ = l
+		if x.CanAnyoneAddCoins {
+			n += 2
+		}
+		if len(x.AccessList) > 0 {
+			for _, s := range x.AccessList {
+				l = len(s)
+				n += 1 + l + runtime.Sov(uint64(l))
+			}
+		}
 		if x.unknownFields != nil {
 			n += len(x.unknownFields)
 		}
@@ -285,6 +392,25 @@ func (x *fastReflection_Params) ProtoMethods() *protoiface.Methods {
 		if x.unknownFields != nil {
 			i -= len(x.unknownFields)
 			copy(dAtA[i:], x.unknownFields)
+		}
+		if len(x.AccessList) > 0 {
+			for iNdEx := len(x.AccessList) - 1; iNdEx >= 0; iNdEx-- {
+				i -= len(x.AccessList[iNdEx])
+				copy(dAtA[i:], x.AccessList[iNdEx])
+				i = runtime.EncodeVarint(dAtA, i, uint64(len(x.AccessList[iNdEx])))
+				i--
+				dAtA[i] = 0x12
+			}
+		}
+		if x.CanAnyoneAddCoins {
+			i--
+			if x.CanAnyoneAddCoins {
+				dAtA[i] = 1
+			} else {
+				dAtA[i] = 0
+			}
+			i--
+			dAtA[i] = 0x8
 		}
 		if input.Buf != nil {
 			input.Buf = append(input.Buf, dAtA...)
@@ -335,6 +461,58 @@ func (x *fastReflection_Params) ProtoMethods() *protoiface.Methods {
 				return protoiface.UnmarshalOutput{NoUnkeyedLiterals: input.NoUnkeyedLiterals, Flags: input.Flags}, fmt.Errorf("proto: Params: illegal tag %d (wire type %d)", fieldNum, wire)
 			}
 			switch fieldNum {
+			case 1:
+				if wireType != 0 {
+					return protoiface.UnmarshalOutput{NoUnkeyedLiterals: input.NoUnkeyedLiterals, Flags: input.Flags}, fmt.Errorf("proto: wrong wireType = %d for field CanAnyoneAddCoins", wireType)
+				}
+				var v int
+				for shift := uint(0); ; shift += 7 {
+					if shift >= 64 {
+						return protoiface.UnmarshalOutput{NoUnkeyedLiterals: input.NoUnkeyedLiterals, Flags: input.Flags}, runtime.ErrIntOverflow
+					}
+					if iNdEx >= l {
+						return protoiface.UnmarshalOutput{NoUnkeyedLiterals: input.NoUnkeyedLiterals, Flags: input.Flags}, io.ErrUnexpectedEOF
+					}
+					b := dAtA[iNdEx]
+					iNdEx++
+					v |= int(b&0x7F) << shift
+					if b < 0x80 {
+						break
+					}
+				}
+				x.CanAnyoneAddCoins = bool(v != 0)
+			case 2:
+				if wireType != 2 {
+					return protoiface.UnmarshalOutput{NoUnkeyedLiterals: input.NoUnkeyedLiterals, Flags: input.Flags}, fmt.Errorf("proto: wrong wireType = %d for field AccessList", wireType)
+				}
+				var stringLen uint64
+				for shift := uint(0); ; shift += 7 {
+					if shift >= 64 {
+						return protoiface.UnmarshalOutput{NoUnkeyedLiterals: input.NoUnkeyedLiterals, Flags: input.Flags}, runtime.ErrIntOverflow
+					}
+					if iNdEx >= l {
+						return protoiface.UnmarshalOutput{NoUnkeyedLiterals: input.NoUnkeyedLiterals, Flags: input.Flags}, io.ErrUnexpectedEOF
+					}
+					b := dAtA[iNdEx]
+					iNdEx++
+					stringLen |= uint64(b&0x7F) << shift
+					if b < 0x80 {
+						break
+					}
+				}
+				intStringLen := int(stringLen)
+				if intStringLen < 0 {
+					return protoiface.UnmarshalOutput{NoUnkeyedLiterals: input.NoUnkeyedLiterals, Flags: input.Flags}, runtime.ErrInvalidLength
+				}
+				postIndex := iNdEx + intStringLen
+				if postIndex < 0 {
+					return protoiface.UnmarshalOutput{NoUnkeyedLiterals: input.NoUnkeyedLiterals, Flags: input.Flags}, runtime.ErrInvalidLength
+				}
+				if postIndex > l {
+					return protoiface.UnmarshalOutput{NoUnkeyedLiterals: input.NoUnkeyedLiterals, Flags: input.Flags}, io.ErrUnexpectedEOF
+				}
+				x.AccessList = append(x.AccessList, string(dAtA[iNdEx:postIndex]))
+				iNdEx = postIndex
 			default:
 				iNdEx = preIndex
 				skippy, err := runtime.Skip(dAtA[iNdEx:])
@@ -388,6 +566,9 @@ type Params struct {
 	state         protoimpl.MessageState
 	sizeCache     protoimpl.SizeCache
 	unknownFields protoimpl.UnknownFields
+
+	CanAnyoneAddCoins bool     `protobuf:"varint,1,opt,name=canAnyoneAddCoins,proto3" json:"canAnyoneAddCoins,omitempty"`
+	AccessList        []string `protobuf:"bytes,2,rep,name=accessList,proto3" json:"accessList,omitempty"`
 }
 
 func (x *Params) Reset() {
@@ -410,6 +591,20 @@ func (*Params) Descriptor() ([]byte, []int) {
 	return file_monetachain_tokenfactory_params_proto_rawDescGZIP(), []int{0}
 }
 
+func (x *Params) GetCanAnyoneAddCoins() bool {
+	if x != nil {
+		return x.CanAnyoneAddCoins
+	}
+	return false
+}
+
+func (x *Params) GetAccessList() []string {
+	if x != nil {
+		return x.AccessList
+	}
+	return nil
+}
+
 var File_monetachain_tokenfactory_params_proto protoreflect.FileDescriptor
 
 var file_monetachain_tokenfactory_params_proto_rawDesc = []byte{
@@ -419,25 +614,30 @@ var file_monetachain_tokenfactory_params_proto_rawDesc = []byte{
 	0x68, 0x61, 0x69, 0x6e, 0x2e, 0x74, 0x6f, 0x6b, 0x65, 0x6e, 0x66, 0x61, 0x63, 0x74, 0x6f, 0x72,
 	0x79, 0x1a, 0x11, 0x61, 0x6d, 0x69, 0x6e, 0x6f, 0x2f, 0x61, 0x6d, 0x69, 0x6e, 0x6f, 0x2e, 0x70,
 	0x72, 0x6f, 0x74, 0x6f, 0x1a, 0x14, 0x67, 0x6f, 0x67, 0x6f, 0x70, 0x72, 0x6f, 0x74, 0x6f, 0x2f,
-	0x67, 0x6f, 0x67, 0x6f, 0x2e, 0x70, 0x72, 0x6f, 0x74, 0x6f, 0x22, 0x34, 0x0a, 0x06, 0x50, 0x61,
-	0x72, 0x61, 0x6d, 0x73, 0x3a, 0x2a, 0xe8, 0xa0, 0x1f, 0x01, 0x8a, 0xe7, 0xb0, 0x2a, 0x21, 0x6d,
-	0x6f, 0x6e, 0x65, 0x74, 0x61, 0x63, 0x68, 0x61, 0x69, 0x6e, 0x2f, 0x78, 0x2f, 0x74, 0x6f, 0x6b,
-	0x65, 0x6e, 0x66, 0x61, 0x63, 0x74, 0x6f, 0x72, 0x79, 0x2f, 0x50, 0x61, 0x72, 0x61, 0x6d, 0x73,
-	0x42, 0xd7, 0x01, 0x0a, 0x1c, 0x63, 0x6f, 0x6d, 0x2e, 0x6d, 0x6f, 0x6e, 0x65, 0x74, 0x61, 0x63,
-	0x68, 0x61, 0x69, 0x6e, 0x2e, 0x74, 0x6f, 0x6b, 0x65, 0x6e, 0x66, 0x61, 0x63, 0x74, 0x6f, 0x72,
-	0x79, 0x42, 0x0b, 0x50, 0x61, 0x72, 0x61, 0x6d, 0x73, 0x50, 0x72, 0x6f, 0x74, 0x6f, 0x50, 0x01,
-	0x5a, 0x29, 0x63, 0x6f, 0x73, 0x6d, 0x6f, 0x73, 0x73, 0x64, 0x6b, 0x2e, 0x69, 0x6f, 0x2f, 0x61,
-	0x70, 0x69, 0x2f, 0x6d, 0x6f, 0x6e, 0x65, 0x74, 0x61, 0x63, 0x68, 0x61, 0x69, 0x6e, 0x2f, 0x74,
-	0x6f, 0x6b, 0x65, 0x6e, 0x66, 0x61, 0x63, 0x74, 0x6f, 0x72, 0x79, 0xa2, 0x02, 0x03, 0x4d, 0x54,
-	0x58, 0xaa, 0x02, 0x18, 0x4d, 0x6f, 0x6e, 0x65, 0x74, 0x61, 0x63, 0x68, 0x61, 0x69, 0x6e, 0x2e,
-	0x54, 0x6f, 0x6b, 0x65, 0x6e, 0x66, 0x61, 0x63, 0x74, 0x6f, 0x72, 0x79, 0xca, 0x02, 0x18, 0x4d,
-	0x6f, 0x6e, 0x65, 0x74, 0x61, 0x63, 0x68, 0x61, 0x69, 0x6e, 0x5c, 0x54, 0x6f, 0x6b, 0x65, 0x6e,
-	0x66, 0x61, 0x63, 0x74, 0x6f, 0x72, 0x79, 0xe2, 0x02, 0x24, 0x4d, 0x6f, 0x6e, 0x65, 0x74, 0x61,
-	0x63, 0x68, 0x61, 0x69, 0x6e, 0x5c, 0x54, 0x6f, 0x6b, 0x65, 0x6e, 0x66, 0x61, 0x63, 0x74, 0x6f,
-	0x72, 0x79, 0x5c, 0x47, 0x50, 0x42, 0x4d, 0x65, 0x74, 0x61, 0x64, 0x61, 0x74, 0x61, 0xea, 0x02,
-	0x19, 0x4d, 0x6f, 0x6e, 0x65, 0x74, 0x61, 0x63, 0x68, 0x61, 0x69, 0x6e, 0x3a, 0x3a, 0x54, 0x6f,
-	0x6b, 0x65, 0x6e, 0x66, 0x61, 0x63, 0x74, 0x6f, 0x72, 0x79, 0x62, 0x06, 0x70, 0x72, 0x6f, 0x74,
-	0x6f, 0x33,
+	0x67, 0x6f, 0x67, 0x6f, 0x2e, 0x70, 0x72, 0x6f, 0x74, 0x6f, 0x22, 0x82, 0x01, 0x0a, 0x06, 0x50,
+	0x61, 0x72, 0x61, 0x6d, 0x73, 0x12, 0x2c, 0x0a, 0x11, 0x63, 0x61, 0x6e, 0x41, 0x6e, 0x79, 0x6f,
+	0x6e, 0x65, 0x41, 0x64, 0x64, 0x43, 0x6f, 0x69, 0x6e, 0x73, 0x18, 0x01, 0x20, 0x01, 0x28, 0x08,
+	0x52, 0x11, 0x63, 0x61, 0x6e, 0x41, 0x6e, 0x79, 0x6f, 0x6e, 0x65, 0x41, 0x64, 0x64, 0x43, 0x6f,
+	0x69, 0x6e, 0x73, 0x12, 0x1e, 0x0a, 0x0a, 0x61, 0x63, 0x63, 0x65, 0x73, 0x73, 0x4c, 0x69, 0x73,
+	0x74, 0x18, 0x02, 0x20, 0x03, 0x28, 0x09, 0x52, 0x0a, 0x61, 0x63, 0x63, 0x65, 0x73, 0x73, 0x4c,
+	0x69, 0x73, 0x74, 0x3a, 0x2a, 0xe8, 0xa0, 0x1f, 0x01, 0x8a, 0xe7, 0xb0, 0x2a, 0x21, 0x6d, 0x6f,
+	0x6e, 0x65, 0x74, 0x61, 0x63, 0x68, 0x61, 0x69, 0x6e, 0x2f, 0x78, 0x2f, 0x74, 0x6f, 0x6b, 0x65,
+	0x6e, 0x66, 0x61, 0x63, 0x74, 0x6f, 0x72, 0x79, 0x2f, 0x50, 0x61, 0x72, 0x61, 0x6d, 0x73, 0x42,
+	0xd7, 0x01, 0x0a, 0x1c, 0x63, 0x6f, 0x6d, 0x2e, 0x6d, 0x6f, 0x6e, 0x65, 0x74, 0x61, 0x63, 0x68,
+	0x61, 0x69, 0x6e, 0x2e, 0x74, 0x6f, 0x6b, 0x65, 0x6e, 0x66, 0x61, 0x63, 0x74, 0x6f, 0x72, 0x79,
+	0x42, 0x0b, 0x50, 0x61, 0x72, 0x61, 0x6d, 0x73, 0x50, 0x72, 0x6f, 0x74, 0x6f, 0x50, 0x01, 0x5a,
+	0x29, 0x63, 0x6f, 0x73, 0x6d, 0x6f, 0x73, 0x73, 0x64, 0x6b, 0x2e, 0x69, 0x6f, 0x2f, 0x61, 0x70,
+	0x69, 0x2f, 0x6d, 0x6f, 0x6e, 0x65, 0x74, 0x61, 0x63, 0x68, 0x61, 0x69, 0x6e, 0x2f, 0x74, 0x6f,
+	0x6b, 0x65, 0x6e, 0x66, 0x61, 0x63, 0x74, 0x6f, 0x72, 0x79, 0xa2, 0x02, 0x03, 0x4d, 0x54, 0x58,
+	0xaa, 0x02, 0x18, 0x4d, 0x6f, 0x6e, 0x65, 0x74, 0x61, 0x63, 0x68, 0x61, 0x69, 0x6e, 0x2e, 0x54,
+	0x6f, 0x6b, 0x65, 0x6e, 0x66, 0x61, 0x63, 0x74, 0x6f, 0x72, 0x79, 0xca, 0x02, 0x18, 0x4d, 0x6f,
+	0x6e, 0x65, 0x74, 0x61, 0x63, 0x68, 0x61, 0x69, 0x6e, 0x5c, 0x54, 0x6f, 0x6b, 0x65, 0x6e, 0x66,
+	0x61, 0x63, 0x74, 0x6f, 0x72, 0x79, 0xe2, 0x02, 0x24, 0x4d, 0x6f, 0x6e, 0x65, 0x74, 0x61, 0x63,
+	0x68, 0x61, 0x69, 0x6e, 0x5c, 0x54, 0x6f, 0x6b, 0x65, 0x6e, 0x66, 0x61, 0x63, 0x74, 0x6f, 0x72,
+	0x79, 0x5c, 0x47, 0x50, 0x42, 0x4d, 0x65, 0x74, 0x61, 0x64, 0x61, 0x74, 0x61, 0xea, 0x02, 0x19,
+	0x4d, 0x6f, 0x6e, 0x65, 0x74, 0x61, 0x63, 0x68, 0x61, 0x69, 0x6e, 0x3a, 0x3a, 0x54, 0x6f, 0x6b,
+	0x65, 0x6e, 0x66, 0x61, 0x63, 0x74, 0x6f, 0x72, 0x79, 0x62, 0x06, 0x70, 0x72, 0x6f, 0x74, 0x6f,
+	0x33,
 }
 
 var (

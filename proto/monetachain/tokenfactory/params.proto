@@ -11,5 +11,6 @@ message Params {
   option (amino.name) = "monetachain/x/tokenfactory/Params";
   option (gogoproto.equal) = true;
 
-  
+  bool canAnyoneAddCoins = 1; 
+  repeated string accessList = 2;
 }

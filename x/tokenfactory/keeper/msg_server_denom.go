@@ -11,6 +11,15 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 )
 
+func findString(arr []string, target string) bool {
+	for _, str := range arr {
+		if str == target {
+			return true
+		}
+	}
+	return false
+}
+
 func (k msgServer) CreateDenom(goCtx context.Context, msg *types.MsgCreateDenom) (*types.MsgCreateDenomResponse, error) {
 	ctx := sdk.UnwrapSDKContext(goCtx)
 
@@ -21,6 +30,11 @@ func (k msgServer) CreateDenom(goCtx context.Context, msg *types.MsgCreateDenom)
 	)
 	if isFound {
 		return nil, errorsmod.Wrap(sdkerrors.ErrInvalidRequest, "Denom already exists")
+	}
+
+	params := k.GetParams(ctx)
+	if !params.CanAnyoneAddCoins && !findString(params.AccessList, msg.Owner) {
+		return nil, errorsmod.Wrap(sdkerrors.ErrInvalidRequest, "Owner is not in the access list")
 	}
 
 	var denom = types.Denom{

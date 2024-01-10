@@ -1,7 +1,7 @@
 {
   "app_name": "monetachaind",
   "app_version": "",
-  "genesis_time": "2024-01-07T00:00:00.000000000Z",
+  "genesis_time": "2024-01-07T00:00:00Z",
   "chain_id": "monetachain",
   "initial_height": 1,
   "app_hash": null,
@@ -16,7 +16,1079 @@
         "sig_verify_cost_ed25519": "590",
         "sig_verify_cost_secp256k1": "1000"
       },
-      "accounts": []
+      "accounts": [
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1qx4n4n6t4f2fs8npcxse8r5k5hzv67mhrrpce5",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1q848whv2upgtewctqwnerqcewrklx07v5420tf",
+          "pub_key": null,
+          "account_number": "1",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1qfyan2uks3xj4hkwcs85en89lkuncnthkjglhx",
+          "pub_key": null,
+          "account_number": "2",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1qk2f0fklh90dv5quy0qky887amcyryvyc7ga5v",
+          "pub_key": null,
+          "account_number": "3",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1pd07mezyak88sj0u5n6979rakwrfzl0x443wvq",
+          "pub_key": null,
+          "account_number": "4",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1pjpm6dp3q4nywlhe2suxh0mnf2nzwv5ezt5d80",
+          "pub_key": null,
+          "account_number": "5",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1z9pf67drhfv0r2nulneu7vdz9y7fvsmcg5x8v4",
+          "pub_key": null,
+          "account_number": "6",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1zfknm3fr769dk359ett967u475kenvykyutgw4",
+          "pub_key": null,
+          "account_number": "7",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1z3edmnsjnee896n8czeewpcx044h532s62vnga",
+          "pub_key": null,
+          "account_number": "8",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1zh43gs8jwlu3gnd3gek49x6y6n7urfyfjqmj2q",
+          "pub_key": null,
+          "account_number": "9",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1z7376w6q4dn4ela5uvlgmju2053vz3pg8y62a6",
+          "pub_key": null,
+          "account_number": "10",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1rzux5cwmeqqpfn6ecw509rx9pskd07v52gg3nq",
+          "pub_key": null,
+          "account_number": "11",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1rxa20f9wq0ees78pl2xmhqdjrxxqg9d7tut7nl",
+          "pub_key": null,
+          "account_number": "12",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1rvyqrwfghypp5thjfkwppa5mk95nkm0enjzcxw",
+          "pub_key": null,
+          "account_number": "13",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1r4rfvqyjj0nycretax744krvrwlh404lp30083",
+          "pub_key": null,
+          "account_number": "14",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1r4gq3k7v9nhew37enta5a6cv6k4wh4gwyqeacz",
+          "pub_key": null,
+          "account_number": "15",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1rhavpmwwj4qegm8j2selsedanjqc548j5jnumv",
+          "pub_key": null,
+          "account_number": "16",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1y4rfy2pppsv6spg7erus2hwmhhgm6vkrxca9m0",
+          "pub_key": null,
+          "account_number": "17",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1y4wr7ehwd22sd4t7dkwyzx8lt84tu43e5nwnem",
+          "pub_key": null,
+          "account_number": "18",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1ykydttjjad2598fu9he4hj5vq8rpjxzhnyzwpf",
+          "pub_key": null,
+          "account_number": "19",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1y6mtm6cjlmvs27crye9pc4js647yr950q5lehx",
+          "pub_key": null,
+          "account_number": "20",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta19zrus0y3adn049fdr3ppju54rhe6657pa2zt7n",
+          "pub_key": null,
+          "account_number": "21",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta19w3rp0zzmzkj8kfyadpdxd5r3yqfwc6xjge9zj",
+          "pub_key": null,
+          "account_number": "22",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta19susme2k4r66la7h8fzvl9af2lx2xhnp8wtly5",
+          "pub_key": null,
+          "account_number": "23",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta19jwwhswftpn67tjkkl4gz9njpjqzhztygtcwmh",
+          "pub_key": null,
+          "account_number": "24",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta19uxujvztrv2f9t0lm7ghxpx36k66d5fpfa0wr8",
+          "pub_key": null,
+          "account_number": "25",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta19lng9f69sxh2r4h2tmhu3a2zjl96hw52afl6se",
+          "pub_key": null,
+          "account_number": "26",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1x8qe7f6falluek3uw66s2jsw5egp74es30c9wa",
+          "pub_key": null,
+          "account_number": "27",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1x843xhwv2lgsznl4f0e3htur9p672nstz2lwrl",
+          "pub_key": null,
+          "account_number": "28",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1xfnt930uz3r3ylr99trhudyllqsqt7r2nmux4e",
+          "pub_key": null,
+          "account_number": "29",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1xj8w437lv3rqxt5vd73grwkvhyrrgfwdq6ql80",
+          "pub_key": null,
+          "account_number": "30",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1xjasc9pz750ykecmjxv458z48hwg5yf90jagy4",
+          "pub_key": null,
+          "account_number": "31",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1x7xa6t7mam7a926ya9pjnwdz7p4mdv6e7lpv5w",
+          "pub_key": null,
+          "account_number": "32",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta18qmvn75j90jj9jwak9k70dtehw6672frfyc7ge",
+          "pub_key": null,
+          "account_number": "33",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta18q7dhxdam3qfdsv4l2mfqwle5qeg0nnear7a57",
+          "pub_key": null,
+          "account_number": "34",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta180kcv6hx8tnz04jkvufjxpzz9glzhvelyqpavh",
+          "pub_key": null,
+          "account_number": "35",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1847k3sl5tve6e73jd7jxz6at5ercjjkskmj5np",
+          "pub_key": null,
+          "account_number": "36",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta18epacq30x3sqj9r2tm6dgeazdnnemv8dgkdj9f",
+          "pub_key": null,
+          "account_number": "37",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta18afdwasflv6crs7974nrmsyjy7e7ulmy3nfmyu",
+          "pub_key": null,
+          "account_number": "38",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1gsw9c8j6vez9sljrsh7kwvy4repfenhp0mqdzk",
+          "pub_key": null,
+          "account_number": "39",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1ghntf2sala386vd5yd9qr07klg2jz3nfhgehmz",
+          "pub_key": null,
+          "account_number": "40",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1glr5qyg24hclku4hwy0330mvndr5npfmpkch7p",
+          "pub_key": null,
+          "account_number": "41",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1fq72kegr7spdqe53dj7shfuk9vpvsvj5sn6cf6",
+          "pub_key": null,
+          "account_number": "42",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1fzm38dse0y2s6ul540am9ajakvgc2pjlf97hjw",
+          "pub_key": null,
+          "account_number": "43",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1fyuttznflxzzp678c99fycshp4cqdm275g7e5a",
+          "pub_key": null,
+          "account_number": "44",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1fv79m7m00mr2d0jm4chxx57fqka4sqtrh3qxra",
+          "pub_key": null,
+          "account_number": "45",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1fj6h4slwh7u7c6wdlz2d8jnyhrujv97leg4jrh",
+          "pub_key": null,
+          "account_number": "46",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1fnsuzalnqyr5854dp6xdf3s2kk59qjnuatk35v",
+          "pub_key": null,
+          "account_number": "47",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1290n9npnzykmsxj2d35vh0r2mj4y36u2xqpcsf",
+          "pub_key": null,
+          "account_number": "48",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta12vvykwqr3t43twpz8p75vxx6rkuch7u30cjufs",
+          "pub_key": null,
+          "account_number": "49",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta12vaf8z9n8w9at3rccdzzdzqrs0hya9vf64e2e8",
+          "pub_key": null,
+          "account_number": "50",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1232gwzqxvrzt966x4r3n96sag7nq762zfcwkjp",
+          "pub_key": null,
+          "account_number": "51",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta12jz3gmkc0r6kvepzdxmrlpctp5udzf3lq0hmm2",
+          "pub_key": null,
+          "account_number": "52",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta12j3hal520rv0mxar6x7xy06l004kzvpql77dme",
+          "pub_key": null,
+          "account_number": "53",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta12cdjc2wztlgp36e05zazzwqct2f03cj7acwutw",
+          "pub_key": null,
+          "account_number": "54",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1t99cf38anc796mka6p3kzez0ev5vlwfd7n8a45",
+          "pub_key": null,
+          "account_number": "55",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1tsnnrxs5qf27ntsg3zsm7nc5t9sphg2mp2ftpc",
+          "pub_key": null,
+          "account_number": "56",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1ts72qcfudhtapjwmytacfj7v2s0yj4dzmakfxp",
+          "pub_key": null,
+          "account_number": "57",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1t62un2vpqktrttapf3p05xrgq83d6tn9aaa29u",
+          "pub_key": null,
+          "account_number": "58",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1t6hne7nzg5g3d0rq24z67fwfcztzn3s7cue9gs",
+          "pub_key": null,
+          "account_number": "59",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1tl7fqpeg59pfad2hkctu56rkl0lnea35x80gtr",
+          "pub_key": null,
+          "account_number": "60",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1v9l0vdnhj9nt9hzqu8cnmxkelagg8yme7nrpd8",
+          "pub_key": null,
+          "account_number": "61",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1vge0wjzmtu5zcys8vsj2gajl83ruz0nwfxpm52",
+          "pub_key": null,
+          "account_number": "62",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1vjr6cx6cxdjlhmsqng8llnqwm9u2mz20ytc3dv",
+          "pub_key": null,
+          "account_number": "63",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1v4hy8g4sr99h7r4uyvnv3p5atq0vj266pp386n",
+          "pub_key": null,
+          "account_number": "64",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1vhekckmejs9tgvamnkhxdzyhzw6hepkemwxq3r",
+          "pub_key": null,
+          "account_number": "65",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1v6mf0ajs7ggjlqngfjhtdhf92rlsssj80kcafs",
+          "pub_key": null,
+          "account_number": "66",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1va2aqg699elu7lg6pk33tyruxjsfsdd5mwecjy",
+          "pub_key": null,
+          "account_number": "67",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1dvts9380le9a03x5zpa3rcw00xqajm9wxzgjre",
+          "pub_key": null,
+          "account_number": "68",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1d0yauuq8a37jzkah3q6elxd5gqwsf6lhexqlly",
+          "pub_key": null,
+          "account_number": "69",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1djn8v3eu4hg3wnkuprxxx7mrud9euc327q4a6l",
+          "pub_key": null,
+          "account_number": "70",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1devwck8mcfmx4lnn5zmlc7r8fckdr0v64rhxk2",
+          "pub_key": null,
+          "account_number": "71",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1d62xy5tsshza5cd3cckwc9d8rxvt02w4yxe9ku",
+          "pub_key": null,
+          "account_number": "72",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1d7nu2w50mpjzm2cwgwha73pr0tmffnvaptwap9",
+          "pub_key": null,
+          "account_number": "73",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1wp5v0cgg4ejgntj2hlpnycjp7m50ytskpnz2wg",
+          "pub_key": null,
+          "account_number": "74",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1wtsrycp2cfswj6er5zzkge698fjc3haew0ucll",
+          "pub_key": null,
+          "account_number": "75",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1wv3ujk9v5uwu9ft0jt8hne8t75v7n5wvjunjfp",
+          "pub_key": null,
+          "account_number": "76",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1w4y4zkqg8y68fvhsegy3yvflts2dledpq4nd5q",
+          "pub_key": null,
+          "account_number": "77",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1wksmernglm9d2lu9wsxnfssnspx7gfjyjdr5u3",
+          "pub_key": null,
+          "account_number": "78",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1w6gjt2mrwrcs562ym84rzsm9a9tl9yqmxgxp6v",
+          "pub_key": null,
+          "account_number": "79",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta10qcz69s9chsf0gqdraxw803duv0cpdguqhm6vv",
+          "pub_key": null,
+          "account_number": "80",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta10frau2ggw8vcsgtukqy3lj03vjajzm0e0eq4eh",
+          "pub_key": null,
+          "account_number": "81",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta10vh5jh9yc9q6jf7s24mfn29t2xalx2dvhxlplc",
+          "pub_key": null,
+          "account_number": "82",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta10nwuz54lf5gdwl2hxcmmxsdru0d3mf54yy7hmy",
+          "pub_key": null,
+          "account_number": "83",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta107ewpjaan6vzgagumhnstjklmkn0752n4hev0n",
+          "pub_key": null,
+          "account_number": "84",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta10ljvmxcgqfqssg8rt9pmvg9er3sca3a6wlvq9v",
+          "pub_key": null,
+          "account_number": "85",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1sqy0mt94wrw0vezdzdjwsmq4fn3wfqt0n8f2ed",
+          "pub_key": null,
+          "account_number": "86",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1s85yx85dn570dwxefp9g4c45srcpzuh69fj2p4",
+          "pub_key": null,
+          "account_number": "87",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1sd0vma6e87gt6d8zrmz7ruvgf3v2e06yew3mfa",
+          "pub_key": null,
+          "account_number": "88",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1sk6rfj6vn5ypm9ax3hkeuyfxhuxn308wrsczpn",
+          "pub_key": null,
+          "account_number": "89",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1shqe72psuhpe962ph5cpn9zgg0xgtja3cnzyvw",
+          "pub_key": null,
+          "account_number": "90",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1sanqpdsn6ygg8z26cvxvaehpt2ecrltdygr0zf",
+          "pub_key": null,
+          "account_number": "91",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta13vmg8fs4ye8m0fvyzzmal98fa9nfajjrtet6u4",
+          "pub_key": null,
+          "account_number": "92",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta13ne7k9zazel5u47zcuyr9n3kf3t6zyqyjdshms",
+          "pub_key": null,
+          "account_number": "93",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1jfpphc4k8d9y6k0m3c645hggdex9gh6nw5zk7u",
+          "pub_key": null,
+          "account_number": "94",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1jwzk8sqm3d87zql9de75m9x8jrj2x5c6z49kw6",
+          "pub_key": null,
+          "account_number": "95",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1jnqmk8yehl7tt8823lmkvc89ktyvsae59n9sxv",
+          "pub_key": null,
+          "account_number": "96",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1nvt7cdxspd4vehu7ryugsp3m8fp7uvrhppnmvj",
+          "pub_key": null,
+          "account_number": "97",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1njqhtwcj74mrg4jt3ehlsdag75epypxe96u9s9",
+          "pub_key": null,
+          "account_number": "98",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta15qw6qmha0wq33gc4my2x6u2dakznjhvtj2crrp",
+          "pub_key": null,
+          "account_number": "99",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta152q35ej2uqekqsglet447e6dzmcescz5u8pdz8",
+          "pub_key": null,
+          "account_number": "100",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta153ykxewq3j8kh2zzhynf6trekgs7vfyvwlcx4h",
+          "pub_key": null,
+          "account_number": "101",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta15eg4emed4e9a2uan7fjylmawh9zfqsac8sa5uq",
+          "pub_key": null,
+          "account_number": "102",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta142hmx3gqyd574lpzwjf7sfp26t4dsxax6wcxxu",
+          "pub_key": null,
+          "account_number": "103",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta145ce8tlellas35r5dhsycyg99fg4gg47asnxuj",
+          "pub_key": null,
+          "account_number": "104",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1k2dzydrpdaatw7ljgvlf0kslnscu5z37l5j3v9",
+          "pub_key": null,
+          "account_number": "105",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1k4vy82jxwawsek0aax37ezdylhkxmvt0crtc4t",
+          "pub_key": null,
+          "account_number": "106",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1k4llmgwsw5wmgx3maeslm5jh73dmurnucpqld0",
+          "pub_key": null,
+          "account_number": "107",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1hz9kkmcpgwjrew9safr7a8969s4cs22et4r6vf",
+          "pub_key": null,
+          "account_number": "108",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1hkwu5289ue8h766pz78ujhgav2h6r6kraz283l",
+          "pub_key": null,
+          "account_number": "109",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1hhma2dane4r4q9u6rc37l0duaj4z8g9uequs0y",
+          "pub_key": null,
+          "account_number": "110",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1cvucr4j9d2ea6a243lwjqnauyn0qqu0cqcrtrz",
+          "pub_key": null,
+          "account_number": "111",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1ckpjulyw8uwh5nxagj5gdqv9vyevkg2mx002p2",
+          "pub_key": null,
+          "account_number": "112",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1ejr3z2xcnn9jhxywqvqu97vcgpunfcs44ymzck",
+          "pub_key": null,
+          "account_number": "113",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1ek8dqps2u36utgrnerlmarsrr5mjzkndxy56uh",
+          "pub_key": null,
+          "account_number": "114",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1ec50ge7fcv5p62af9pv9twvth52dxvqsd6udk3",
+          "pub_key": null,
+          "account_number": "115",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1emu2uejz3qf7qtpkekrkkux2nwj2t49c9ukrjn",
+          "pub_key": null,
+          "account_number": "116",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1eupyv6sszgglsycwyawfvncm22zudu4ypkr4m4",
+          "pub_key": null,
+          "account_number": "117",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta16pffjfjs9338r48wa7y2wgz4ztg28vgs3xl0l2",
+          "pub_key": null,
+          "account_number": "118",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta16pss0z77ly9knpvgem0ne4u8e20ypqkp650g8e",
+          "pub_key": null,
+          "account_number": "119",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta16y8a24zejjjw5unyyt99p3d23wajlej569kgw2",
+          "pub_key": null,
+          "account_number": "120",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta16trk3pn672wydkufz8djvq6g3r4m7zl3skz6tk",
+          "pub_key": null,
+          "account_number": "121",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta164de0kzpdztwpsdl3tca0d6y5wkzwz05kk7mpa",
+          "pub_key": null,
+          "account_number": "122",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1m8x25sn8lqa3n8w7r0t5n940k9effh4yxd2ztd",
+          "pub_key": null,
+          "account_number": "123",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1m0f26hagvy6p6kqqw6vge0r93ckf8pz2dgdtlz",
+          "pub_key": null,
+          "account_number": "124",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1mehyr99g7ex5yy44gjde73nwvsacr77k9wvvrm",
+          "pub_key": null,
+          "account_number": "125",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1uqfmfxatq7d3hwcvftgv6j0ydgqeuj7uhj5wjl",
+          "pub_key": null,
+          "account_number": "126",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1uptemt8fcmwl7utpf8ks9lf7zvkv8fynkjk9ke",
+          "pub_key": null,
+          "account_number": "127",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1upkapc0qp7cmz97t2mugpe7uyzdjn7lv4s66dg",
+          "pub_key": null,
+          "account_number": "128",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1uxv99fak8hp9sag80d2mw97d6jx0w8c68uduf9",
+          "pub_key": null,
+          "account_number": "129",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1ufjxrrga6f22ajemd5pzg54gy3hyglg87a8xjn",
+          "pub_key": null,
+          "account_number": "130",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1utxvwtsu265evmluak8xyf43fcj0pssvtmwxcl",
+          "pub_key": null,
+          "account_number": "131",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1uvxrxsvl9t4m8jhxaszjf4sn3c0y0yfdg320ch",
+          "pub_key": null,
+          "account_number": "132",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1uv5h60cjuacadsf43cfvpn6ptd4mgm4pfv6p4k",
+          "pub_key": null,
+          "account_number": "133",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1unxs8cj9329fgv0se2tvzxvky2rj6tgz6vctpt",
+          "pub_key": null,
+          "account_number": "134",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1ul4pgyv6lnpx8f4xr82n5mt5stekzs5u8v3008",
+          "pub_key": null,
+          "account_number": "135",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1a9pnza4m5tlwz2lhfxr5tg82shflp0mwgmfs73",
+          "pub_key": null,
+          "account_number": "136",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1adtjjxmzct8um3338xukr0draufxnxkv8h8jt7",
+          "pub_key": null,
+          "account_number": "137",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1a3ura3zz5gmmdjhp5rx64n3gt9alucc2mnrut8",
+          "pub_key": null,
+          "account_number": "138",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1aeay2v7sa2q7mstnrn5yh9kx84jr036pkprqvk",
+          "pub_key": null,
+          "account_number": "139",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta17qe09y32keqlxq4a2z9d69g6ng7nfcda02y8ns",
+          "pub_key": null,
+          "account_number": "140",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta17yurwj56r3qtva46ujh55xmf92le5jhxc4ln5l",
+          "pub_key": null,
+          "account_number": "141",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta17v92vpslsg7fdteq3rcnvjhdadqsma8dajzgfq",
+          "pub_key": null,
+          "account_number": "142",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1737lduj299wfn75yzufqp7sjdwn2muxw70wh2q",
+          "pub_key": null,
+          "account_number": "143",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta17mj6dxmcv8qfx9904m2yma9n050v36ge76y8gc",
+          "pub_key": null,
+          "account_number": "144",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta17at5wvt8xntjy4csrkmk56hzj3eqyhl0ev27gp",
+          "pub_key": null,
+          "account_number": "145",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1lz86zcawfxma82wly8mdgwe40mwepgzxj4ep4v",
+          "pub_key": null,
+          "account_number": "146",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1ld34hx4xjj43kwnn336nwhcfka2yqje4ky8aec",
+          "pub_key": null,
+          "account_number": "147",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1ldmant5slnaqgvnqln7wgygunahwkqnpsq80lh",
+          "pub_key": null,
+          "account_number": "148",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1ls2z6t63h0g7pzmc50je8r4gppd8r7zc3udlwt",
+          "pub_key": null,
+          "account_number": "149",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1l4tpdn0kfhwsajk9j2ecudq35mndue4ssv4ukv",
+          "pub_key": null,
+          "account_number": "150",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1lmmcl4raefd7z5d6p0pernlypq5zxs9ut3y78f",
+          "pub_key": null,
+          "account_number": "151",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "moneta1lu4j0v32nhw4gw2cg8qrl82e3wsuplze54s7qy",
+          "pub_key": null,
+          "account_number": "152",
+          "sequence": "0"
+        }
+      ]
     },
     "authz": {
       "authorization": []
@@ -26,8 +1098,1391 @@
         "send_enabled": [],
         "default_send_enabled": true
       },
-      "balances": [],
-      "supply": [],
+      "balances": [
+        {
+          "address": "moneta1qx4n4n6t4f2fs8npcxse8r5k5hzv67mhrrpce5",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1q848whv2upgtewctqwnerqcewrklx07v5420tf",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "999968932900"
+            }
+          ]
+        },
+        {
+          "address": "moneta1qfyan2uks3xj4hkwcs85en89lkuncnthkjglhx",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "6000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1qk2f0fklh90dv5quy0qky887amcyryvyc7ga5v",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "2077105"
+            }
+          ]
+        },
+        {
+          "address": "moneta1pd07mezyak88sj0u5n6979rakwrfzl0x443wvq",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "4131968220"
+            }
+          ]
+        },
+        {
+          "address": "moneta1pjpm6dp3q4nywlhe2suxh0mnf2nzwv5ezt5d80",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "130000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1z9pf67drhfv0r2nulneu7vdz9y7fvsmcg5x8v4",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "7000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1zfknm3fr769dk359ett967u475kenvykyutgw4",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "8000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1z3edmnsjnee896n8czeewpcx044h532s62vnga",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1zh43gs8jwlu3gnd3gek49x6y6n7urfyfjqmj2q",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "23351889567"
+            }
+          ]
+        },
+        {
+          "address": "moneta1z7376w6q4dn4ela5uvlgmju2053vz3pg8y62a6",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1rzux5cwmeqqpfn6ecw509rx9pskd07v52gg3nq",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "307674522"
+            }
+          ]
+        },
+        {
+          "address": "moneta1rxa20f9wq0ees78pl2xmhqdjrxxqg9d7tut7nl",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "15000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1rvyqrwfghypp5thjfkwppa5mk95nkm0enjzcxw",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "4929278256"
+            }
+          ]
+        },
+        {
+          "address": "moneta1r4rfvqyjj0nycretax744krvrwlh404lp30083",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "9997847252335244"
+            }
+          ]
+        },
+        {
+          "address": "moneta1r4gq3k7v9nhew37enta5a6cv6k4wh4gwyqeacz",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "1049976699"
+            }
+          ]
+        },
+        {
+          "address": "moneta1rhavpmwwj4qegm8j2selsedanjqc548j5jnumv",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "499000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1y4rfy2pppsv6spg7erus2hwmhhgm6vkrxca9m0",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "5092258485"
+            }
+          ]
+        },
+        {
+          "address": "moneta1y4wr7ehwd22sd4t7dkwyzx8lt84tu43e5nwnem",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "1107539056"
+            }
+          ]
+        },
+        {
+          "address": "moneta1ykydttjjad2598fu9he4hj5vq8rpjxzhnyzwpf",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "58522652539"
+            }
+          ]
+        },
+        {
+          "address": "moneta1y6mtm6cjlmvs27crye9pc4js647yr950q5lehx",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "5000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta19zrus0y3adn049fdr3ppju54rhe6657pa2zt7n",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "27398540536"
+            }
+          ]
+        },
+        {
+          "address": "moneta19w3rp0zzmzkj8kfyadpdxd5r3yqfwc6xjge9zj",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "22000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta19susme2k4r66la7h8fzvl9af2lx2xhnp8wtly5",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "34000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta19jwwhswftpn67tjkkl4gz9njpjqzhztygtcwmh",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "9000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta19uxujvztrv2f9t0lm7ghxpx36k66d5fpfa0wr8",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta19lng9f69sxh2r4h2tmhu3a2zjl96hw52afl6se",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "39000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1x8qe7f6falluek3uw66s2jsw5egp74es30c9wa",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "59479596"
+            }
+          ]
+        },
+        {
+          "address": "moneta1x843xhwv2lgsznl4f0e3htur9p672nstz2lwrl",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "8000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1xfnt930uz3r3ylr99trhudyllqsqt7r2nmux4e",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "16000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1xj8w437lv3rqxt5vd73grwkvhyrrgfwdq6ql80",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "499988904"
+            }
+          ]
+        },
+        {
+          "address": "moneta1xjasc9pz750ykecmjxv458z48hwg5yf90jagy4",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1x7xa6t7mam7a926ya9pjnwdz7p4mdv6e7lpv5w",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "24000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta18qmvn75j90jj9jwak9k70dtehw6672frfyc7ge",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "3000886918"
+            }
+          ]
+        },
+        {
+          "address": "moneta18q7dhxdam3qfdsv4l2mfqwle5qeg0nnear7a57",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "5000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta180kcv6hx8tnz04jkvufjxpzz9glzhvelyqpavh",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "434855243"
+            }
+          ]
+        },
+        {
+          "address": "moneta1847k3sl5tve6e73jd7jxz6at5ercjjkskmj5np",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "97949000"
+            }
+          ]
+        },
+        {
+          "address": "moneta18epacq30x3sqj9r2tm6dgeazdnnemv8dgkdj9f",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "110534192"
+            }
+          ]
+        },
+        {
+          "address": "moneta18afdwasflv6crs7974nrmsyjy7e7ulmy3nfmyu",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "12000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1gsw9c8j6vez9sljrsh7kwvy4repfenhp0mqdzk",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "4000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1ghntf2sala386vd5yd9qr07klg2jz3nfhgehmz",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "9000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1glr5qyg24hclku4hwy0330mvndr5npfmpkch7p",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "41000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1fq72kegr7spdqe53dj7shfuk9vpvsvj5sn6cf6",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "5000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1fzm38dse0y2s6ul540am9ajakvgc2pjlf97hjw",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "5742242"
+            }
+          ]
+        },
+        {
+          "address": "moneta1fyuttznflxzzp678c99fycshp4cqdm275g7e5a",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "50000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1fv79m7m00mr2d0jm4chxx57fqka4sqtrh3qxra",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "2000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1fj6h4slwh7u7c6wdlz2d8jnyhrujv97leg4jrh",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "23182294447"
+            }
+          ]
+        },
+        {
+          "address": "moneta1fnsuzalnqyr5854dp6xdf3s2kk59qjnuatk35v",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "10922895"
+            }
+          ]
+        },
+        {
+          "address": "moneta1290n9npnzykmsxj2d35vh0r2mj4y36u2xqpcsf",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "20000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta12vvykwqr3t43twpz8p75vxx6rkuch7u30cjufs",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "60990178846"
+            }
+          ]
+        },
+        {
+          "address": "moneta12vaf8z9n8w9at3rccdzzdzqrs0hya9vf64e2e8",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "17000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1232gwzqxvrzt966x4r3n96sag7nq762zfcwkjp",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "4000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta12jz3gmkc0r6kvepzdxmrlpctp5udzf3lq0hmm2",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "117563097"
+            }
+          ]
+        },
+        {
+          "address": "moneta12j3hal520rv0mxar6x7xy06l004kzvpql77dme",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "24936675476"
+            }
+          ]
+        },
+        {
+          "address": "moneta12cdjc2wztlgp36e05zazzwqct2f03cj7acwutw",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "2000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1t99cf38anc796mka6p3kzez0ev5vlwfd7n8a45",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "2000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1tsnnrxs5qf27ntsg3zsm7nc5t9sphg2mp2ftpc",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "97115136178"
+            }
+          ]
+        },
+        {
+          "address": "moneta1ts72qcfudhtapjwmytacfj7v2s0yj4dzmakfxp",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "16000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1t62un2vpqktrttapf3p05xrgq83d6tn9aaa29u",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "104000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1t6hne7nzg5g3d0rq24z67fwfcztzn3s7cue9gs",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "7402927113"
+            }
+          ]
+        },
+        {
+          "address": "moneta1tl7fqpeg59pfad2hkctu56rkl0lnea35x80gtr",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "9500354"
+            }
+          ]
+        },
+        {
+          "address": "moneta1v9l0vdnhj9nt9hzqu8cnmxkelagg8yme7nrpd8",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "15214307233"
+            }
+          ]
+        },
+        {
+          "address": "moneta1vge0wjzmtu5zcys8vsj2gajl83ruz0nwfxpm52",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "234115915620"
+            }
+          ]
+        },
+        {
+          "address": "moneta1vjr6cx6cxdjlhmsqng8llnqwm9u2mz20ytc3dv",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "6000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1v4hy8g4sr99h7r4uyvnv3p5atq0vj266pp386n",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "12660896027"
+            }
+          ]
+        },
+        {
+          "address": "moneta1vhekckmejs9tgvamnkhxdzyhzw6hepkemwxq3r",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "14000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1v6mf0ajs7ggjlqngfjhtdhf92rlsssj80kcafs",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "150000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1va2aqg699elu7lg6pk33tyruxjsfsdd5mwecjy",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "15428704586"
+            }
+          ]
+        },
+        {
+          "address": "moneta1dvts9380le9a03x5zpa3rcw00xqajm9wxzgjre",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "87997177547"
+            }
+          ]
+        },
+        {
+          "address": "moneta1d0yauuq8a37jzkah3q6elxd5gqwsf6lhexqlly",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "29000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1djn8v3eu4hg3wnkuprxxx7mrud9euc327q4a6l",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1devwck8mcfmx4lnn5zmlc7r8fckdr0v64rhxk2",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1d62xy5tsshza5cd3cckwc9d8rxvt02w4yxe9ku",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "6000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1d7nu2w50mpjzm2cwgwha73pr0tmffnvaptwap9",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "5000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1wp5v0cgg4ejgntj2hlpnycjp7m50ytskpnz2wg",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1wtsrycp2cfswj6er5zzkge698fjc3haew0ucll",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "5000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1wv3ujk9v5uwu9ft0jt8hne8t75v7n5wvjunjfp",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "25000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1w4y4zkqg8y68fvhsegy3yvflts2dledpq4nd5q",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "998000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1wksmernglm9d2lu9wsxnfssnspx7gfjyjdr5u3",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "77000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1w6gjt2mrwrcs562ym84rzsm9a9tl9yqmxgxp6v",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "107996534840"
+            }
+          ]
+        },
+        {
+          "address": "moneta10qcz69s9chsf0gqdraxw803duv0cpdguqhm6vv",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "998000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta10frau2ggw8vcsgtukqy3lj03vjajzm0e0eq4eh",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "35000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta10vh5jh9yc9q6jf7s24mfn29t2xalx2dvhxlplc",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta10nwuz54lf5gdwl2hxcmmxsdru0d3mf54yy7hmy",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "8000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta107ewpjaan6vzgagumhnstjklmkn0752n4hev0n",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "48000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta10ljvmxcgqfqssg8rt9pmvg9er3sca3a6wlvq9v",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "55000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1sqy0mt94wrw0vezdzdjwsmq4fn3wfqt0n8f2ed",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "1205529422"
+            }
+          ]
+        },
+        {
+          "address": "moneta1s85yx85dn570dwxefp9g4c45srcpzuh69fj2p4",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "298993342"
+            }
+          ]
+        },
+        {
+          "address": "moneta1sd0vma6e87gt6d8zrmz7ruvgf3v2e06yew3mfa",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "5000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1sk6rfj6vn5ypm9ax3hkeuyfxhuxn308wrsczpn",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "1428884"
+            }
+          ]
+        },
+        {
+          "address": "moneta1shqe72psuhpe962ph5cpn9zgg0xgtja3cnzyvw",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "9422557"
+            }
+          ]
+        },
+        {
+          "address": "moneta1sanqpdsn6ygg8z26cvxvaehpt2ecrltdygr0zf",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "10000111416"
+            }
+          ]
+        },
+        {
+          "address": "moneta13vmg8fs4ye8m0fvyzzmal98fa9nfajjrtet6u4",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "49794083"
+            }
+          ]
+        },
+        {
+          "address": "moneta13ne7k9zazel5u47zcuyr9n3kf3t6zyqyjdshms",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "31784496"
+            }
+          ]
+        },
+        {
+          "address": "moneta1jfpphc4k8d9y6k0m3c645hggdex9gh6nw5zk7u",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "3000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1jwzk8sqm3d87zql9de75m9x8jrj2x5c6z49kw6",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "21000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1jnqmk8yehl7tt8823lmkvc89ktyvsae59n9sxv",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "43176189851"
+            }
+          ]
+        },
+        {
+          "address": "moneta1nvt7cdxspd4vehu7ryugsp3m8fp7uvrhppnmvj",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "6000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1njqhtwcj74mrg4jt3ehlsdag75epypxe96u9s9",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "5000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta15qw6qmha0wq33gc4my2x6u2dakznjhvtj2crrp",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "39627277712"
+            }
+          ]
+        },
+        {
+          "address": "moneta152q35ej2uqekqsglet447e6dzmcescz5u8pdz8",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "2595996388"
+            }
+          ]
+        },
+        {
+          "address": "moneta153ykxewq3j8kh2zzhynf6trekgs7vfyvwlcx4h",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "7169616"
+            }
+          ]
+        },
+        {
+          "address": "moneta15eg4emed4e9a2uan7fjylmawh9zfqsac8sa5uq",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "3000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta142hmx3gqyd574lpzwjf7sfp26t4dsxax6wcxxu",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "16000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta145ce8tlellas35r5dhsycyg99fg4gg47asnxuj",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "4882193"
+            }
+          ]
+        },
+        {
+          "address": "moneta1k2dzydrpdaatw7ljgvlf0kslnscu5z37l5j3v9",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "25000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1k4vy82jxwawsek0aax37ezdylhkxmvt0crtc4t",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "2000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1k4llmgwsw5wmgx3maeslm5jh73dmurnucpqld0",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "3374859304"
+            }
+          ]
+        },
+        {
+          "address": "moneta1hz9kkmcpgwjrew9safr7a8969s4cs22et4r6vf",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "4747319710"
+            }
+          ]
+        },
+        {
+          "address": "moneta1hkwu5289ue8h766pz78ujhgav2h6r6kraz283l",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "13000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1hhma2dane4r4q9u6rc37l0duaj4z8g9uequs0y",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1cvucr4j9d2ea6a243lwjqnauyn0qqu0cqcrtrz",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "109327903"
+            }
+          ]
+        },
+        {
+          "address": "moneta1ckpjulyw8uwh5nxagj5gdqv9vyevkg2mx002p2",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1ejr3z2xcnn9jhxywqvqu97vcgpunfcs44ymzck",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "22000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1ek8dqps2u36utgrnerlmarsrr5mjzkndxy56uh",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "164000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1ec50ge7fcv5p62af9pv9twvth52dxvqsd6udk3",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "97000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1emu2uejz3qf7qtpkekrkkux2nwj2t49c9ukrjn",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "67100"
+            }
+          ]
+        },
+        {
+          "address": "moneta1eupyv6sszgglsycwyawfvncm22zudu4ypkr4m4",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "29000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta16pffjfjs9338r48wa7y2wgz4ztg28vgs3xl0l2",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "31000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta16pss0z77ly9knpvgem0ne4u8e20ypqkp650g8e",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "15684401011"
+            }
+          ]
+        },
+        {
+          "address": "moneta16y8a24zejjjw5unyyt99p3d23wajlej569kgw2",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "10059776753"
+            }
+          ]
+        },
+        {
+          "address": "moneta16trk3pn672wydkufz8djvq6g3r4m7zl3skz6tk",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "8000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta164de0kzpdztwpsdl3tca0d6y5wkzwz05kk7mpa",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "10913714317"
+            }
+          ]
+        },
+        {
+          "address": "moneta1m8x25sn8lqa3n8w7r0t5n940k9effh4yxd2ztd",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "13000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1m0f26hagvy6p6kqqw6vge0r93ckf8pz2dgdtlz",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "536163"
+            }
+          ]
+        },
+        {
+          "address": "moneta1mehyr99g7ex5yy44gjde73nwvsacr77k9wvvrm",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "9000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1uqfmfxatq7d3hwcvftgv6j0ydgqeuj7uhj5wjl",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "1276436014"
+            }
+          ]
+        },
+        {
+          "address": "moneta1uptemt8fcmwl7utpf8ks9lf7zvkv8fynkjk9ke",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1upkapc0qp7cmz97t2mugpe7uyzdjn7lv4s66dg",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "26186839183"
+            }
+          ]
+        },
+        {
+          "address": "moneta1uxv99fak8hp9sag80d2mw97d6jx0w8c68uduf9",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "7000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1ufjxrrga6f22ajemd5pzg54gy3hyglg87a8xjn",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "5117815969"
+            }
+          ]
+        },
+        {
+          "address": "moneta1utxvwtsu265evmluak8xyf43fcj0pssvtmwxcl",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "370465808"
+            }
+          ]
+        },
+        {
+          "address": "moneta1uvxrxsvl9t4m8jhxaszjf4sn3c0y0yfdg320ch",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "6"
+            }
+          ]
+        },
+        {
+          "address": "moneta1uv5h60cjuacadsf43cfvpn6ptd4mgm4pfv6p4k",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "6512158"
+            }
+          ]
+        },
+        {
+          "address": "moneta1unxs8cj9329fgv0se2tvzxvky2rj6tgz6vctpt",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "55000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1ul4pgyv6lnpx8f4xr82n5mt5stekzs5u8v3008",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "4000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1a9pnza4m5tlwz2lhfxr5tg82shflp0mwgmfs73",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "85534329"
+            }
+          ]
+        },
+        {
+          "address": "moneta1adtjjxmzct8um3338xukr0draufxnxkv8h8jt7",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1a3ura3zz5gmmdjhp5rx64n3gt9alucc2mnrut8",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "15000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1aeay2v7sa2q7mstnrn5yh9kx84jr036pkprqvk",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "13892871"
+            }
+          ]
+        },
+        {
+          "address": "moneta17qe09y32keqlxq4a2z9d69g6ng7nfcda02y8ns",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "116164175489"
+            }
+          ]
+        },
+        {
+          "address": "moneta17yurwj56r3qtva46ujh55xmf92le5jhxc4ln5l",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "26146054141"
+            }
+          ]
+        },
+        {
+          "address": "moneta17v92vpslsg7fdteq3rcnvjhdadqsma8dajzgfq",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "15000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1737lduj299wfn75yzufqp7sjdwn2muxw70wh2q",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "16645427"
+            }
+          ]
+        },
+        {
+          "address": "moneta17mj6dxmcv8qfx9904m2yma9n050v36ge76y8gc",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "5000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta17at5wvt8xntjy4csrkmk56hzj3eqyhl0ev27gp",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "7000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1lz86zcawfxma82wly8mdgwe40mwepgzxj4ep4v",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "13349752901"
+            }
+          ]
+        },
+        {
+          "address": "moneta1ld34hx4xjj43kwnn336nwhcfka2yqje4ky8aec",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "110000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1ldmant5slnaqgvnqln7wgygunahwkqnpsq80lh",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "8000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1ls2z6t63h0g7pzmc50je8r4gppd8r7zc3udlwt",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "36000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1l4tpdn0kfhwsajk9j2ecudq35mndue4ssv4ukv",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1lmmcl4raefd7z5d6p0pernlypq5zxs9ut3y78f",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "8000000"
+            }
+          ]
+        },
+        {
+          "address": "moneta1lu4j0v32nhw4gw2cg8qrl82e3wsuplze54s7qy",
+          "coins": [
+            {
+              "denom": "micromoneta",
+              "amount": "17000000"
+            }
+          ]
+        }
+      ],
+      "supply": [
+        {
+          "denom": "micromoneta",
+          "amount": "10000000000000000"
+        }
+      ],
       "denom_metadata": [],
       "send_enabled": []
     },
@@ -229,7 +2684,12 @@
       "exported": false
     },
     "tokenfactory": {
-      "params": {},
+      "params": {
+        "canAnyoneAddCoins": false,
+        "accessList": [
+          "moneta1r4rfvqyjj0nycretax744krvrwlh404lp30083"
+        ]
+      },
       "denomList": []
     },
     "transfer": {

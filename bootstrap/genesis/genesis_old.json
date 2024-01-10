@@ -121,7 +121,7 @@
             "@type": "/cosmos.crypto.secp256k1.PubKey",
             "key": "Ay4pbZf3cQcU4krmATP0ZeFzw8eOQ2L2fh5cCLFQ2loh"
           },
-          "sequence": "450"
+          "sequence": "458"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
@@ -480,6 +480,13 @@
             "burner",
             "staking"
           ]
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "account_number": "164",
+          "address": "moneta1t99cf38anc796mka6p3kzez0ev5vlwfd7n8a45",
+          "pub_key": null,
+          "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
@@ -1472,7 +1479,7 @@
           "address": "moneta1r4rfvqyjj0nycretax744krvrwlh404lp30083",
           "coins": [
             {
-              "amount": "9492997705999994",
+              "amount": "9492997669999994",
               "denom": "micromoneta"
             }
           ]
@@ -1553,7 +1560,7 @@
           "address": "moneta19susme2k4r66la7h8fzvl9af2lx2xhnp8wtly5",
           "coins": [
             {
-              "amount": "26000000",
+              "amount": "34000000",
               "denom": "micromoneta"
             }
           ]
@@ -1562,7 +1569,7 @@
           "address": "moneta19jwwhswftpn67tjkkl4gz9njpjqzhztygtcwmh",
           "coins": [
             {
-              "amount": "3000000",
+              "amount": "9000000",
               "denom": "micromoneta"
             }
           ]
@@ -1865,6 +1872,15 @@
           ]
         },
         {
+          "address": "moneta1t99cf38anc796mka6p3kzez0ev5vlwfd7n8a45",
+          "coins": [
+            {
+              "amount": "2000000",
+              "denom": "micromoneta"
+            }
+          ]
+        },
+        {
           "address": "moneta1tsnnrxs5qf27ntsg3zsm7nc5t9sphg2mp2ftpc",
           "coins": [
             {
@@ -1985,7 +2001,7 @@
           "address": "moneta1d0yauuq8a37jzkah3q6elxd5gqwsf6lhexqlly",
           "coins": [
             {
-              "amount": "27000000",
+              "amount": "29000000",
               "denom": "micromoneta"
             }
           ]
@@ -2228,7 +2244,7 @@
           "address": "moneta1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8fzsuuc",
           "coins": [
             {
-              "amount": "384616239",
+              "amount": "388616239",
               "denom": "micromoneta"
             }
           ]
@@ -2399,7 +2415,7 @@
           "address": "moneta1ejr3z2xcnn9jhxywqvqu97vcgpunfcs44ymzck",
           "coins": [
             {
-              "amount": "21000000",
+              "amount": "22000000",
               "denom": "micromoneta"
             }
           ]
@@ -2408,7 +2424,7 @@
           "address": "moneta1ek8dqps2u36utgrnerlmarsrr5mjzkndxy56uh",
           "coins": [
             {
-              "amount": "159000000",
+              "amount": "164000000",
               "denom": "micromoneta"
             }
           ]
@@ -2588,7 +2604,7 @@
           "address": "moneta1unxs8cj9329fgv0se2tvzxvky2rj6tgz6vctpt",
           "coins": [
             {
-              "amount": "51000000",
+              "amount": "55000000",
               "denom": "micromoneta"
             }
           ]
@@ -2763,7 +2779,7 @@
       },
       "supply": [
         {
-          "amount": "9996009460500000",
+          "amount": "9996009456500000",
           "denom": "micromoneta"
         }
       ]
@@ -2875,7 +2891,7 @@
         {
           "outstanding_rewards": [
             {
-              "amount": "379470364.864404204121340596",
+              "amount": "383470364.864404204121340596",
               "denom": "micromoneta"
             }
           ],
@@ -2925,7 +2941,7 @@
           "accumulated": {
             "commission": [
               {
-                "amount": "37964122.616980185262134060",
+                "amount": "38364122.616980185262134060",
                 "denom": "micromoneta"
               }
             ]
@@ -2964,7 +2980,7 @@
             "period": "6",
             "rewards": [
               {
-                "amount": "323547818.890686214984619036",
+                "amount": "327147818.890686214984619036",
                 "denom": "micromoneta"
               }
             ]
@@ -3355,7 +3371,7 @@
           "address": "monetavalcons1l3zqkay3q3483geh3gagw09cl5hkn48yawhvad",
           "validator_signing_info": {
             "address": "monetavalcons1l3zqkay3q3483geh3gagw09cl5hkn48yawhvad",
-            "index_offset": "11838677",
+            "index_offset": "11896407",
             "jailed_until": "1970-01-01T00:00:00Z",
             "missed_blocks_counter": "0",
             "start_height": "0",
@@ -3561,7 +3577,7 @@
     "version": {}
   },
   "genesis_time": "2021-12-15T14:58:27.504221325Z",
-  "initial_height": "11838679",
+  "initial_height": "11896409",
   "validators": [
     {
       "address": "FC440B7491046A78A3378A3A873CB8FD2F69D4E4",

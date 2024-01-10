@@ -23,3 +23,5 @@ docker exec -ti monetachain /usr/local/bin/monetachaind tx tokenfactory create-d
 docker exec -ti monetachain /usr/local/bin/monetachaind tx tokenfactory update-denom uignite "Ignite" "newurl" 2000000000000000000 false --from validator --keyring-backend file --keyring-dir /root/monetachain --chain-id monetachain --fees 200000micromoneta
 
 docker exec -ti monetachain /usr/local/bin/monetachaind tx tokenfactory mint-and-send-tokens uignite 2000000000000000000 moneta1r4rfvqyjj0nycretax744krvrwlh404lp30083 --from validator --keyring-backend file --keyring-dir /root/monetachain --chain-id monetachain --fees 200000micromoneta
+
+docker exec -ti monetachain /usr/local/bin/monetachaind tx tokenfactory update-owner uignite moneta1r4rfvqyjj0nycretax744krvrwlh404lp30083 --from validator --keyring-backend file --keyring-dir /root/monetachain --chain-id monetachain --fees 200000micromoneta
